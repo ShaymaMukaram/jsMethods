@@ -36,6 +36,7 @@ class ArrayList {
       console.log(arraylist[key]);
     }
   }
+
   findMethod() {
     var found = arraylist.find(function(elements) {
       return elements === "name";
